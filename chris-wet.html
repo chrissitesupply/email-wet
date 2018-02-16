@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Making Accessible Emails</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style type="text/css">
+        /* CLIENT-SPECIFIC STYLES */
+
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /* RESET STYLES */
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+    </style>
+</head>
+
+<body style="background-image:url('images/rainb-q10.jpg');
+  background-color: greenyellow
+  margin: 0 !important; 
+  padding: 60px 0 60px 0 !important;
+   ">
+
+    <table border="0" cellspacing="0" cellpadding="0" role="presentation" width="100%">
+        <tr>
+            <!--this is the left blank area-->
+            <td style="background-color: rgba(1, 1, 1, 0); font-size: 0;">&nbsp;</td>
+
+            <!--this is central work area-->
+            <td width="600" style="background-color: rgba(255, 255, 255, 1); border-radius: 4px; color: grey; font-family: sans-serif; font-size: 18px; line-height: 28px; padding: 40px 40px;">
+
+   
+                   <header>
+                    <a href="https://www.hivis.net" style="text-decoration: none;color: #308fdf;">
+                        <!--logo is 230 x 80 90% scale is  207 x 72-->
+                        <img style="
+                        margin-left:1px; margin-top: 4px; 
+                         margin-bottom: 5px;
+                         width:207px; 
+                         height: 72px;" 
+                         src="http://assets.hivis.net/hivis_net/images/logos/ssc/hivisnet-small.png" 
+                         alt="Hivis.net" border="0">
+                    </a>
+                    <div>
+                        <b>Hello, *|IF:FNAME|**|TITLE:FNAME|*.*|ELSE:|*Customer*|END:IF|*</b>
+                        <p>We've got a great deal for you!</p>
+                    </div>
+                       <div>
+                         <img src="https://assets.hivis.net/8/en/email/email-icon.png" 
+                          height="10" alt="email-icon.png">
+                                <font color="#cccccc">
+                                <a href="mailto:info@sitesupplyco.com?Subject=Quote%20Request%20From%20Email&Body=Hello%2C%20please%20could%20I%20have%20a%20quote%20for%20the%20following%3A%0A%0A" style="color: #555555;text-decoration: none;">
+                                <font color="#555555">Click for a Quote</font>
+                                </a>
+                            
+                                <img src="https://assets.hivis.net/8/en/email/phone-icon.png" height="11" alt="phone-icon.png">
+                                <font color="#555555">0845 009 6750</font>
+                                </font>  
+                           
+                       </div>
+                     
+                </header>
+
+
+                <article>
+
+                    <h1 style="color: red; font-size: 32px; font-weight: bold; line-height: 36px; margin: 0 0 30px 0; text-align: center;">
+
+                        This is a heading h1
+                    </h1>
+
+                    <img alt="75% Off for Members Only" 
+                    src="images/work-wear.jpg" 
+                    height="300" width="600" 
+                    style="background-color: black; color: #f8c433; display: block; font-family: sans-serif; 
+              font-size: 72px; font-weight: bold; height: auto; max-width: 100%; text-align: center; width: 100%;">
+
+                    <p style="margin: 30px 0 30px 0;">
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad facilis vitae similique dolor tenetur, quibusdam temporibus, explicabo, ipsam omnis sequi placeat, nostrum qui. Repellat, ratione obcaecati, labore non quo ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+                    </p>
+
+                    <p style="margin: 30px 0 30px 0; text-align: center;">
+
+                        <a href="https://thebetter.email" target="_blank" style="font-size: 18px; font-family: sans-serif; 
+                font-weight: bold; color: black; text-decoration: none; border-radius: 8px; 
+                -webkit-border-radius: 8px; background-color: #f8c433; 
+                border-top: 20px solid #f8c433; border-bottom: 18px solid #f8c433; 
+                border-right: 40px solid #f8c433; border-left: 40px solid #f8c433; 
+                display: inline-block;">
+                
+                Save 75% Now
+                
+                </a>
+                    </p>
+
+                    <p style="margin: 0 0 30px 0;">
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quisquam, perferendis, non ratione pariatur quam quidem ad temporibus magni sed veritatis autem iure eligendi soluta blanditiis provident reprehenderit magnam. Facere!
+
+                    </p>
+
+                    <p style="margin: 0 0 30px 0;">
+
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo voluptas debitis, quas officia repellendus quaerat velit doloribus eaque iure tempora, veniam accusantium iusto. Molestias ex exercitationem assumenda nulla. Totam, dolorum.
+
+                    </p>
+
+                </article>
+            </td>
+
+
+            <!--this is the right blank area-->
+            <td style="background-color: rgba(1, 1, 1, 0); font-size: 0;">&nbsp;</td>
+        </tr>
+    </table>
+</body>
+
+</html>
